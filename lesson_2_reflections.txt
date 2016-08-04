@@ -15,3 +15,6 @@ The diagrams help me seen when branches fork off from the master branch and help
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The purpose of merging two branches together is to combine your changes into one project when you are ready to. The diagram helps us denote that changes were made seperately when the branch was created, then put together once the branches were merged.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Git's automatic merging is convenient because it doesn't merge conflicts, which is important for manual merging so that these conflicts can be resolved before combing two sets of code.
